@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu{
+    text-align: right;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    padding: 1em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0;
+}
+    </style>
+</head>
+<body>
+    <h1>Sistem Informasi Seminar Tugas Akhir - SISTA</h1>
+    <div class="menu">
+       
+            <a href="#">Home</a> >
+            <a href="#">Jadwal</a> >
+            <a href="#">Detail Jadwal</a> >
+            <a href="">Daftar Peserta</a>
+       
+    </div>
+    <div>
+        <tr class="atas">
+            <td>Mahasiswa Seminar : Diego Armando (0102002)</td>
+            <br>
+            <td>Judul  : Rancang Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Framework</td>
+            <br>
+            <td>Waktu  : Senin, 4 Januari 2021, 13:00</td>
+        </tr>
+    </div>
+    <br>
+    <fieldset>
+        <legend>Form Peserta Seminar</legend>
+        <label for="NIM">NIM</label>
+        <input type="text" name="NIM">
+        <br>
+        <br>
+        <label for="Nama">Nama</label>
+        <input type="text" name="Nama">
+        <br>
+        <br>
+        <label for="Prodi">Prodi</label>
+        <select name="Prodi">
+            <option value="1">Sistem Informasi</option>
+            <option value="2">Teknik Informatika</option>
+            <option value="3">Bisnis Digital</option>
+        </select>
+        <br>
+        <br>
+        <label for="Program">Program</label>
+        <label><input type="radio">D3</label>
+        <label><input type="radio">S1 Reguler</label>
+        <label><input type="radio">S1 Fast Trackt</label>
+        <label><input type="radio">S2</label>
+        <br>
+        <br>
+        <input type="submit" value="Daftar">
+    </fieldset>
+</body>
+</html> 
